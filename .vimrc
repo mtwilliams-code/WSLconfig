@@ -28,7 +28,7 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp "sets backup directory for a
 noremap ^] ^wg^] 
 set wrap
 set linebreak " makes line breaks at natural points
-cd /mnt/c/Users/matth/Documents/code
+"cd /mnt/c/Users/matth/Documents/code
 command Scheck SyntasticCheck
 if &term =~ '256color'
     " disable Background Color Erase (BCE) so that color schemes
